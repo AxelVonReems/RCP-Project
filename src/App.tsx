@@ -121,7 +121,7 @@ function App() {
         <div className="flex flex-col items-center">
           <h1 className="text-6xl font-bold text-orange-500 mb-8">PCR QUIZ</h1>
           <button
-            className="bg-white text-blue-500 font-semibold text-xl px-8 py-4 rounded-2xl shadow-md hover:bg-blue-100 transition"
+            className="bg-white text-blue-500 font-semibold text-xl px-8 py-4 rounded-2xl shadow-md hover:bg-orange-500 hover:text-white transition"
             onClick={() => setStarted(true)}
           >
             Empezar
@@ -145,7 +145,7 @@ function App() {
           {/* Restart button */}
           <button
             onClick={restartQuiz}
-            className="bg-white text-blue-500 font-semibold text-xl px-8 py-4 rounded-2xl shadow-md hover:bg-blue-100 transition"
+            className="bg-white text-blue-500 font-semibold text-xl px-8 py-4 rounded-2xl shadow-md hover:bg-orange-500 hover:text-white transition"
           >
             Volver a empezar
           </button>
